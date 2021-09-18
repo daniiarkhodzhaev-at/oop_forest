@@ -1,7 +1,7 @@
 #include <iostream>
-#include "herbivore.h"
+#include <herbivore.h>
 
 void Herbivore::say_type()
 {
-    std::cout << "I'm a herbivore\n";
+    std::cout << "I'm a herbivore!\n";
 }

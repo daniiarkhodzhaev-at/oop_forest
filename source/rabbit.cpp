@@ -1,5 +1,5 @@
 #include <iostream>
-#include "rabbit.h"
+#include <rabbit.h>
 
 void Rabbit::say()
 {

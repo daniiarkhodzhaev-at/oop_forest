@@ -1,4 +1,4 @@
-#include "herbivore.h"
+#include <herbivore.h>
 
 #ifndef RABBIT_H
 #define RABBIT_H

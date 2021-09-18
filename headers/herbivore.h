@@ -1,4 +1,4 @@
-#include "animal.h"
+#include <animal.h>
 
 #ifndef HERBIVORE_H
 #define HERBIVORE_H

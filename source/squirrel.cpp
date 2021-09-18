@@ -7,5 +7,5 @@ Squirrel::~Squirrel() {}
 
 void Squirrel::say()
 {
-    std::cout << "I'm a rabbit!\n";
+    std::cout << "I'm a squirrel!\n";
 }

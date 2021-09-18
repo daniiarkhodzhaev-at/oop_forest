@@ -10,6 +10,8 @@ private:
 public:
     Forest();
 
+    Forest(unsigned);
+
     ~Forest();
 
     operator()();

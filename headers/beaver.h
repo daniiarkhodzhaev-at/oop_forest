@@ -5,6 +5,9 @@
 
 class Beaver : public Herbivore
 {
+public:
+    Beaver();
+    ~Beaver();
     void say();
 };
 

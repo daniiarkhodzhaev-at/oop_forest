@@ -5,6 +5,9 @@
 
 class Wolf : public Predator
 {
+public:
+    Wolf();
+    ~Wolf();
     void say();
 };
 

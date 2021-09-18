@@ -5,6 +5,9 @@
 
 class Human : public Predator
 {
+public:
+    Human();
+    ~Human();
     void say();
 };
 

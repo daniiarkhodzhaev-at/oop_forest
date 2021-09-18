@@ -5,6 +5,9 @@
 
 class Horse : public Herbivore
 {
+public:
+    Horse();
+    ~Horse();
     void say();
 };
 

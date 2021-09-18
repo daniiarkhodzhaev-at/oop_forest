@@ -5,6 +5,9 @@
 
 class Rabbit : public Herbivore
 {
+public:
+    Rabbit();
+    ~Rabbit();
     void say();
 };
 

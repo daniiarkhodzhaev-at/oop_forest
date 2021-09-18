@@ -5,6 +5,9 @@
 
 class Fox : public Predator
 {
+public:
+    Fox();
+    ~Fox();
     void say();
 };
 

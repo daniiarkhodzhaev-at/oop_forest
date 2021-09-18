@@ -19,8 +19,23 @@ add_compile_options(
   "$<$<CONFIG:DEBUG>:-O0;-g3;-ggdb;-Werror>"
 )
 
-add_library(Animal SHARED source/Animal.cpp)
+set(LIB_OBJ
+    source/animal.cpp
+    source/predator.cpp
+    source/herbivore.cpp
+    source/wolf.cpp
+    source/fox.cpp
+    source/bear.cpp
+    source/human.cpp
+    source/rabbit.cpp
+    source/horse.cpp
+    source/beaver.cpp
+    source/squirrel.cpp)
+
+add_library(animal SHARED ${LIB_OBJ})
+add_library(forest SHARED source/forest.cpp)
+target_link_libraries(forest animal)
 
 add_executable(main main.cpp)
 
-target_link_libraries(main Animal)
+target_link_libraries(main forest)

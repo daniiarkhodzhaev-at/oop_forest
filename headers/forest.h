@@ -5,7 +5,8 @@
 
 class Forest {
 private:
-    Animal *arr;
+    Animal **arr;
+    unsigned len;
 
 public:
     Forest();
@@ -14,7 +15,7 @@ public:
 
     ~Forest();
 
-    operator()();
+    void operator()();
 };
 
 #endif

@@ -4,8 +4,10 @@
 class Animal
 {
 public:
-    virtual void say_type();
-    virtual void say();
+    Animal();
+    virtual ~Animal() = 0;
+    virtual void say_type() = 0;
+    virtual void say() = 0;
 };
 
 #endif

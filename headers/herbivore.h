@@ -5,7 +5,11 @@
 
 class Herbivore : public Animal
 {
+public:
+    Herbivore();
+    virtual ~Herbivore() = 0;
     void say_type();
+    virtual void say() = 0;
 };
 
 #endif

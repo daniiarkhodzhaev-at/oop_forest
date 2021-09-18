@@ -39,3 +39,7 @@ target_link_libraries(forest animal)
 add_executable(main main.cpp)
 
 target_link_libraries(main forest)
+
+enable_testing()
+
+add_test(test valgrind ./main)
